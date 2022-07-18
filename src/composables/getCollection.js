@@ -11,7 +11,7 @@ const getCollection = (collection) => {
     collectionRef.onSnapshot((snap) => {
         let results = []
         snap.docs.forEach( doc => {
-           doc.data().createdAt && result.push({ ...doc.data(), id:doc.id})
+           doc.data().createdAt && results.push({ ...doc.data(), id:doc.id})
         })
         documents.value = results
         error.value = null
