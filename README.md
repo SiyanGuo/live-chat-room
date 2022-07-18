@@ -15,5 +15,10 @@ npm run serve
 npm run build
 ```
 
+### Deployed on Firebase
+```
+https://vue-live-chat-53ee8.web.app/
+```
+
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
