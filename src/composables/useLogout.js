@@ -16,7 +16,6 @@ const logout = async () => {
 }
 
 const useLogout = () => {
-
     return { error, logout }
 }
 
